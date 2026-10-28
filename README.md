@@ -408,13 +408,7 @@ tests/test_streaks.py::test_today_unlogged_grace PASSED                  [100%]
 
 ---
 
-## 21. Resume Keywords & Technical Skills
-
-`Python 3.14` • `Streamlit` • `Pandas` • `NumPy` • `Plotly` • `SQLite3` • `Statistical Modeling` • `Bivariate Correlation (Pearson & Spearman)` • `Time-Series Analysis` • `Data Integrity & ACID Transactions` • `Local-First Software Architecture` • `Automated Testing (pytest)` • `Data Portability (JSON/CSV)` • `UI/UX Design Systems`
-
----
-
-## 22. License & Attribution
+## 21. License & Attribution
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
