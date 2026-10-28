@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & personal data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/exports/
+data/backups/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables & secrets
+.env
+.env.local
+.streamlit/credentials.toml
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

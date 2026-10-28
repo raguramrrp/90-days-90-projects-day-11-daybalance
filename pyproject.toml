@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daybalance"
+version = "1.0.0"
+description = "Behavioral Habit Analytics & Consistency Intelligence Dashboard"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Ragu Ram P", email = "ragu.ram.p@example.com"}
+]
+keywords = [
+    "habit-tracking",
+    "behavioral-analytics",
+    "consistency-intelligence",
+    "lifestyle-analytics",
+    "streamlit",
+    "plotly",
+    "sqlite",
+    "productivity",
+    "data-science"
+]
+dependencies = [
+    "streamlit>=1.35.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "plotly>=5.22.0",
+    "python-dateutil>=2.8.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "pytest-cov>=5.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --strict-markers"
